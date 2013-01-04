@@ -1,4 +1,4 @@
-# zookeeper #
+# Manic Monkey #
 Some simple monkeypatches to ruby core classes
 
 ## String ##
