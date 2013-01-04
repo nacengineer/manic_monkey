@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.platform                   = Gem::Platform::RUBY
   s.name                       = "manic_monkey"
   s.version                    = ManicMonkey::VERSION
+  s.license                    = "MIT"
 
   s.authors                    = ["David Southard"]
   s.email                      = ["nacengineer@gmail.com"]
