@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version     = '>= 1.9.1'
 
-  s.files                      = Dir.glob("{generators,lib}/**/*") + %w(LICENSE README.md Rakefile)
+  s.files                      = Dir.glob("{generators,lib}/**/*") + %w(LICENSE.md README.md)
   s.require_path               = 'lib'
 end
 
