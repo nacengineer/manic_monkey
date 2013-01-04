@@ -17,5 +17,8 @@ Gem::Specification.new do |s|
 
   s.files                      = Dir.glob("{generators,lib}/**/*") + %w(LICENSE.md README.md)
   s.require_path               = 'lib'
+
+  # development dependencies
+  s.add_development_dependency('rspec')
 end
 
