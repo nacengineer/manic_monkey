@@ -1,5 +1,5 @@
 require 'rspec'
-require 'zookeeper/deep_symbolizable'
+require 'manic_monkey/deep_symbolizable'
 
 describe 'Hash#deep_symbolize' do
   let(:hash) {{}}

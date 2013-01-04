@@ -5,8 +5,8 @@ require 'version'
 
 Gem::Specification.new do |s|
   s.platform                   = Gem::Platform::RUBY
-  s.name                       = "zookeeper"
-  s.version                    = Zookeeper::VERSION
+  s.name                       = "manic_monkey"
+  s.version                    = ManicMonkey::VERSION
 
   s.authors                    = ["David Southard"]
   s.email                      = ["nacengineer@gmail.com"]
