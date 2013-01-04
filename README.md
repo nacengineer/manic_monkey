@@ -58,5 +58,5 @@ def some_large_string
 end
 ```
 ## Hash ##
-Added the Rails Hash method symbolize_keys! to turn keys of strings into... symbols
+Added the Rails Hash method *symbolize_keys!* to turn keys of strings into... symbols
 
