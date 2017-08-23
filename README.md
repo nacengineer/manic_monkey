@@ -6,6 +6,8 @@ The string class now has an unindent method. This is useful for things like HERE
 
 Sample usage
 
+```require 'manic_monkey'```
+
 *This will produce a string with a two space indent*
 ```ruby
 def some_large_string
