@@ -86,3 +86,30 @@ Example 2:
 ```ruby
 myhash.extend DeepSymbolizable
 ```
+
+# Hash Accessors
+
+Typical Useage: You need accessors to the level 1 keys of database stored
+serialized data, e.g. json, jsonb, xml
+
+In your class that has the serialized db column
+
+```
+class AwesomeSauce
+  hash_accessor :column_of_serialized_data, :key1, :key2
+```
+
+This should now allow you to call the method directly on an object created
+from the class
+
+```
+@object = AwesomeSauce.new
+@object.key1
+```
+
+versus
+
+```
+@object = AwesomeSauce.new
+@object.column_of_serialized_data[:key1]
+```
