@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary               = "Monkey patches for ruby core classes"
   s.description           = "A few ruby core patches in a gem."
   s.homepage              = "https://github.com/nacengineer/manic_monkey"
-  s.required_ruby_version = '>= 1.9.1'
+  s.required_ruby_version = '>= 2.3.0'
   s.files                 = Dir.glob("{generators,lib}/**/*") + %w(LICENSE.md README.md)
   s.require_path          = 'lib'
 
